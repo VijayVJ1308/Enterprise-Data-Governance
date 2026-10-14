@@ -1,0 +1,11 @@
+duckdb_lakehouse:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'data/lake/warehouse/governance.duckdb'
+      threads: 4
+    prod:
+      type: duckdb
+      path: 'data/lake/warehouse/governance_prod.duckdb'
+      threads: 8

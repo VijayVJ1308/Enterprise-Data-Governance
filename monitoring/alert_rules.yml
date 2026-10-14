@@ -1,0 +1,32 @@
+groups:
+  - name: enterprise_data_quality_alerts
+    rules:
+      - alert: DataQualityScoreDegradation
+        expr: data_quality_overall_score < 85
+        for: 5m
+        labels:
+          severity: critical
+          tier: lakehouse
+        annotations:
+          summary: "Enterprise Data Quality Score dropped below 85%"
+          description: "Overall weighted data quality health score is currently at {{ $value }}%."
+
+      - alert: PipelineFreshnessBreach
+        expr: data_pipeline_freshness_seconds > 3600
+        for: 10m
+        labels:
+          severity: high
+          tier: ingestion
+        annotations:
+          summary: "Pipeline Freshness SLA breached (> 1 hour)"
+          description: "Data landing lag has exceeded 3600 seconds on streaming topics."
+
+      - alert: HighQualityRuleFailureRate
+        expr: rate(data_quality_rule_failures_total[5m]) > 0.05
+        for: 3m
+        labels:
+          severity: warning
+          tier: validation
+        annotations:
+          summary: "High rate of rule failures detected"
+          description: "Quality assertions are failing at {{ $value }} errors per second."

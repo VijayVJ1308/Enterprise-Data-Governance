@@ -1,0 +1,31 @@
+contract_name: customers_contract_v1
+dataset: customers
+version: 1.0.0
+owner: jane.owner@enterprise.com
+domain: Sales
+description: Data contract enforcing customer dataset schema, quality score, and freshness.
+
+schema:
+  - name: customer_id
+    type: STRING
+    nullable: false
+    description: Primary identifier for enterprise customer
+  - name: first_name
+    type: STRING
+    nullable: false
+  - name: last_name
+    type: STRING
+    nullable: false
+  - name: email
+    type: STRING
+    nullable: false
+  - name: phone_number
+    type: STRING
+    nullable: true
+
+quality_slas:
+  min_quality_score: 90.0
+  max_null_rate_percent: 5.0
+
+freshness_slas:
+  max_age_hours: 24

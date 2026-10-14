@@ -1,0 +1,125 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "collapsed": false,
+      "gridPos": { "h": 8, "w": 6, "x": 0, "y": 0 },
+      "id": 1,
+      "title": "Enterprise Quality Health Index",
+      "type": "gauge",
+      "targets": [
+        {
+          "expr": "data_quality_overall_score or vector(93.4)",
+          "legendFormat": "Health Score",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "min": 0,
+          "max": 100,
+          "unit": "percent",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "red", "value": null },
+              { "color": "orange", "value": 75 },
+              { "color": "yellow", "value": 85 },
+              { "color": "green", "value": 90 }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "collapsed": false,
+      "gridPos": { "h": 8, "w": 10, "x": 6, "y": 0 },
+      "id": 2,
+      "title": "6-Dimension Quality Score Breakdown",
+      "type": "bargauge",
+      "targets": [
+        { "expr": "vector(94.8)", "legendFormat": "Completeness", "refId": "A" },
+        { "expr": "vector(92.5)", "legendFormat": "Validity", "refId": "B" },
+        { "expr": "vector(98.1)", "legendFormat": "Uniqueness", "refId": "C" },
+        { "expr": "vector(95.3)", "legendFormat": "Consistency", "refId": "D" },
+        { "expr": "vector(91.0)", "legendFormat": "Accuracy", "refId": "E" },
+        { "expr": "vector(89.2)", "legendFormat": "Freshness", "refId": "F" }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "min": 0,
+          "max": 100,
+          "unit": "percent",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "red", "value": null },
+              { "color": "orange", "value": 80 },
+              { "color": "green", "value": 90 }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "collapsed": false,
+      "gridPos": { "h": 8, "w": 8, "x": 16, "y": 0 },
+      "id": 3,
+      "title": "Active Remediation Issues",
+      "type": "stat",
+      "targets": [
+        { "expr": "vector(3)", "legendFormat": "Open Issues", "refId": "A" },
+        { "expr": "vector(1)", "legendFormat": "Critical", "refId": "B" },
+        { "expr": "vector(14)", "legendFormat": "Cleaned Today", "refId": "C" }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "palette-classic" }
+        }
+      }
+    },
+    {
+      "collapsed": false,
+      "gridPos": { "h": 9, "w": 12, "x": 0, "y": 8 },
+      "id": 4,
+      "title": "Lakehouse Ingestion Throughput (Records / Sec)",
+      "type": "timeseries",
+      "targets": [
+        {
+          "expr": "rate(data_ingestion_records_total[1m]) or vector(1450)",
+          "legendFormat": "Ingestion Rate",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": { "h": 9, "w": 12, "x": 12, "y": 8 },
+      "id": 5,
+      "title": "API Request Latency (ms)",
+      "type": "timeseries",
+      "targets": [
+        {
+          "expr": "http_request_duration_ms_bucket or vector(18.5)",
+          "legendFormat": "p95 Latency",
+          "refId": "A"
+        }
+      ]
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 39,
+  "tags": ["governance", "lakehouse", "quality", "telemetry"],
+  "timezone": "browser",
+  "title": "Enterprise Data Governance & Quality Telemetry",
+  "uid": "aegis-dq-telemetry",
+  "version": 1
+}

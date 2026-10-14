@@ -1,0 +1,452 @@
+[
+  {
+    "supplier_id": "SUPP-0001",
+    "supplier_name": "Global Tech Supplies #1",
+    "country": "USA",
+    "contact_email": "contact@globaltechsupplies1.com",
+    "lead_time_days": 24,
+    "rating": 3.6,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0002",
+    "supplier_name": "Global Tech Supplies #2",
+    "country": "Taiwan",
+    "contact_email": "contact@globaltechsupplies2.com",
+    "lead_time_days": 24,
+    "rating": 4.8,
+    "status": "INACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0003",
+    "supplier_name": "Starlight Manufacturing #3",
+    "country": "USA",
+    "contact_email": "contact@starlightmanufacturing3.com",
+    "lead_time_days": 1,
+    "rating": 3.2,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0004",
+    "supplier_name": "Acme Corp #4",
+    "country": "UK",
+    "contact_email": "contact@acmecorp4.com",
+    "lead_time_days": 7,
+    "rating": 4.4,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0005",
+    "supplier_name": "Starlight Manufacturing #5",
+    "country": "Germany",
+    "contact_email": "contact@starlightmanufacturing5.com",
+    "lead_time_days": 15,
+    "rating": 4.2,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0006",
+    "supplier_name": "Acme Corp #6",
+    "country": "South Korea",
+    "contact_email": "contact@acmecorp6.com",
+    "lead_time_days": 26,
+    "rating": 3.3,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0007",
+    "supplier_name": "Vanguard Industries #7",
+    "country": "Germany",
+    "contact_email": "contact@vanguardindustries7.com",
+    "lead_time_days": 7,
+    "rating": 4.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0008",
+    "supplier_name": "Global Tech Supplies #8",
+    "country": "China",
+    "contact_email": "contact@globaltechsupplies8.com",
+    "lead_time_days": 4,
+    "rating": 3.7,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0009",
+    "supplier_name": "Vanguard Industries #9",
+    "country": "South Korea",
+    "contact_email": "contact@vanguardindustries9.com",
+    "lead_time_days": 2,
+    "rating": 4.5,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0010",
+    "supplier_name": "Starlight Manufacturing #10",
+    "country": "USA",
+    "contact_email": "contact@starlightmanufacturing10.com",
+    "lead_time_days": 18,
+    "rating": 3.6,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0011",
+    "supplier_name": "Zenith Trading #11",
+    "country": "UK",
+    "contact_email": "contact@zenithtrading11.com",
+    "lead_time_days": 7,
+    "rating": 4.4,
+    "status": "INACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0012",
+    "supplier_name": "Nexus Components #12",
+    "country": "South Korea",
+    "contact_email": "contact@nexuscomponents12.com",
+    "lead_time_days": 10,
+    "rating": 5.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0013",
+    "supplier_name": "Global Tech Supplies #13",
+    "country": "China",
+    "contact_email": "contact@globaltechsupplies13.com",
+    "lead_time_days": 9,
+    "rating": 3.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0014",
+    "supplier_name": "Apex Logistics #14",
+    "country": "Japan",
+    "contact_email": "contact@apexlogistics14.com",
+    "lead_time_days": 12,
+    "rating": 3.4,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0015",
+    "supplier_name": "Global Tech Supplies #15",
+    "country": "UK",
+    "contact_email": "contact@globaltechsupplies15.com",
+    "lead_time_days": 21,
+    "rating": 3.3,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0016",
+    "supplier_name": "Apex Logistics #16",
+    "country": "China",
+    "contact_email": "contact@apexlogistics16.com",
+    "lead_time_days": 13,
+    "rating": 3.5,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0017",
+    "supplier_name": "Nexus Components #17",
+    "country": "Taiwan",
+    "contact_email": "contact@nexuscomponents17.com",
+    "lead_time_days": 11,
+    "rating": 4.7,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0018",
+    "supplier_name": "Nexus Components #18",
+    "country": "South Korea",
+    "contact_email": "contact@nexuscomponents18.com",
+    "lead_time_days": 2,
+    "rating": 4.6,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0019",
+    "supplier_name": "Global Tech Supplies #19",
+    "country": "Germany",
+    "contact_email": "contact@globaltechsupplies19.com",
+    "lead_time_days": 30,
+    "rating": 4.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0020",
+    "supplier_name": "Zenith Trading #20",
+    "country": "Germany",
+    "contact_email": "contact@zenithtrading20.com",
+    "lead_time_days": 21,
+    "rating": 4.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0021",
+    "supplier_name": "Quantum Solutions #21",
+    "country": "Germany",
+    "contact_email": "contact@quantumsolutions21.com",
+    "lead_time_days": 9,
+    "rating": 3.3,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0022",
+    "supplier_name": "Vanguard Industries #22",
+    "country": "Taiwan",
+    "contact_email": "contact@vanguardindustries22.com",
+    "lead_time_days": 19,
+    "rating": 3.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0023",
+    "supplier_name": "Zenith Trading #23",
+    "country": "Germany",
+    "contact_email": "contact@zenithtrading23.com",
+    "lead_time_days": 5,
+    "rating": 4.0,
+    "status": "INACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0024",
+    "supplier_name": "Acme Corp #24",
+    "country": "South Korea",
+    "contact_email": "contact@acmecorp24.com",
+    "lead_time_days": 4,
+    "rating": 3.3,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0025",
+    "supplier_name": "Starlight Manufacturing #25",
+    "country": "UK",
+    "contact_email": "contact@starlightmanufacturing25.com",
+    "lead_time_days": 3,
+    "rating": 3.8,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0026",
+    "supplier_name": "Quantum Solutions #26",
+    "country": "UK",
+    "contact_email": "contact@quantumsolutions26.com",
+    "lead_time_days": 9,
+    "rating": 4.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0027",
+    "supplier_name": "Acme Corp #27",
+    "country": "Taiwan",
+    "contact_email": "contact@acmecorp27.com",
+    "lead_time_days": 24,
+    "rating": 3.2,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0028",
+    "supplier_name": "Vanguard Industries #28",
+    "country": "South Korea",
+    "contact_email": "contact@vanguardindustries28.com",
+    "lead_time_days": 21,
+    "rating": 3.7,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0029",
+    "supplier_name": "Apex Logistics #29",
+    "country": "China",
+    "contact_email": "contact@apexlogistics29.com",
+    "lead_time_days": 1,
+    "rating": 4.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0030",
+    "supplier_name": "Vanguard Industries #30",
+    "country": "UK",
+    "contact_email": "contact@vanguardindustries30.com",
+    "lead_time_days": 25,
+    "rating": 3.4,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0031",
+    "supplier_name": "Vanguard Industries #31",
+    "country": "South Korea",
+    "contact_email": "contact@vanguardindustries31.com",
+    "lead_time_days": 21,
+    "rating": 4.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0032",
+    "supplier_name": "Zenith Trading #32",
+    "country": "South Korea",
+    "contact_email": "contact@zenithtrading32.com",
+    "lead_time_days": 6,
+    "rating": 4.1,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0033",
+    "supplier_name": "Acme Corp #33",
+    "country": "UK",
+    "contact_email": "contact@acmecorp33.com",
+    "lead_time_days": 11,
+    "rating": 4.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0034",
+    "supplier_name": "Zenith Trading #34",
+    "country": "South Korea",
+    "contact_email": "contact@zenithtrading34.com",
+    "lead_time_days": 26,
+    "rating": 3.6,
+    "status": "INACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0035",
+    "supplier_name": "Global Tech Supplies #35",
+    "country": "USA",
+    "contact_email": "contact@globaltechsupplies35.com",
+    "lead_time_days": 24,
+    "rating": 4.0,
+    "status": "INACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0036",
+    "supplier_name": "Apex Logistics #36",
+    "country": "Germany",
+    "contact_email": "contact@apexlogistics36.com",
+    "lead_time_days": 22,
+    "rating": 4.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0037",
+    "supplier_name": "Vanguard Industries #37",
+    "country": "UK",
+    "contact_email": "contact@vanguardindustries37.com",
+    "lead_time_days": 28,
+    "rating": 4.2,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0038",
+    "supplier_name": "Nexus Components #38",
+    "country": "Taiwan",
+    "contact_email": "contact@nexuscomponents38.com",
+    "lead_time_days": 10,
+    "rating": 3.8,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0039",
+    "supplier_name": "Zenith Trading #39",
+    "country": "China",
+    "contact_email": "contact@zenithtrading39.com",
+    "lead_time_days": 29,
+    "rating": 4.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0040",
+    "supplier_name": "Nexus Components #40",
+    "country": "USA",
+    "contact_email": "contact@nexuscomponents40.com",
+    "lead_time_days": 11,
+    "rating": 3.0,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0041",
+    "supplier_name": "Nexus Components #41",
+    "country": "USA",
+    "contact_email": "contact@nexuscomponents41.com",
+    "lead_time_days": 3,
+    "rating": 4.4,
+    "status": "INACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0042",
+    "supplier_name": "Global Tech Supplies #42",
+    "country": "USA",
+    "contact_email": "contact@globaltechsupplies42.com",
+    "lead_time_days": 28,
+    "rating": 3.7,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0043",
+    "supplier_name": "Vanguard Industries #43",
+    "country": "Taiwan",
+    "contact_email": "contact@vanguardindustries43.com",
+    "lead_time_days": 16,
+    "rating": 3.4,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0044",
+    "supplier_name": "Quantum Solutions #44",
+    "country": "Germany",
+    "contact_email": "contact@quantumsolutions44.com",
+    "lead_time_days": 26,
+    "rating": 3.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0045",
+    "supplier_name": "Global Tech Supplies #45",
+    "country": "USA",
+    "contact_email": "contact@globaltechsupplies45.com",
+    "lead_time_days": 22,
+    "rating": 3.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0046",
+    "supplier_name": "Quantum Solutions #46",
+    "country": "South Korea",
+    "contact_email": "contact@quantumsolutions46.com",
+    "lead_time_days": 24,
+    "rating": 3.1,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0047",
+    "supplier_name": "Global Tech Supplies #47",
+    "country": "USA",
+    "contact_email": "contact@globaltechsupplies47.com",
+    "lead_time_days": 13,
+    "rating": 4.5,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0048",
+    "supplier_name": "Global Tech Supplies #48",
+    "country": "Germany",
+    "contact_email": "contact@globaltechsupplies48.com",
+    "lead_time_days": 7,
+    "rating": 3.4,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0049",
+    "supplier_name": "Starlight Manufacturing #49",
+    "country": "Germany",
+    "contact_email": "contact@starlightmanufacturing49.com",
+    "lead_time_days": 9,
+    "rating": 3.9,
+    "status": "ACTIVE"
+  },
+  {
+    "supplier_id": "SUPP-0050",
+    "supplier_name": "Global Tech Supplies #50",
+    "country": "China",
+    "contact_email": "contact@globaltechsupplies50.com",
+    "lead_time_days": 26,
+    "rating": 4.7,
+    "status": "ACTIVE"
+  }
+]
