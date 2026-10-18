@@ -133,34 +133,52 @@ enterprise-data-governance/
 
 ---
 
-## ⚙️ Quick Start
+## ⚙️ Quick Start & Run Commands
 
-### Option A: Complete Docker Compose Stack (Recommended)
-Launch the entire 8-service stack with one command:
+> 📖 **Full Execution Guide**: For in-depth options, service ports, and troubleshooting, see [RUN_COMMANDS.md](RUN_COMMANDS.md).
+
+### Option A: Local Standalone Development (Fastest, No Docker Needed)
+
+1. **Seed Demo Metadata & Lakehouse Tables**:
+   ```bash
+   make seed
+   # Or: python3 scripts/seed_demo_data.py
+   ```
+
+2. **Start FastAPI REST Backend (Terminal 1)**:
+   ```bash
+   make run-backend
+   # Or: python3 -m uvicorn backend.app.main:app --port 8000 --reload
+   ```
+
+3. **Start React Vite UI Dashboard (Terminal 2)**:
+   ```bash
+   make run-frontend
+   # Or: cd frontend && npm run dev
+   ```
+
+---
+
+### Option B: Complete Docker Compose Stack (8 Services)
+
+> Ensure Docker Desktop is running before launching.
+
+Launch the entire containerized stack with one command:
 ```bash
-./scripts/start_platform.sh
+make docker-start
+# Or: ./scripts/start_platform.sh
 ```
 
 Or manually:
 ```bash
-docker compose up -d
+make docker-up
 python3 scripts/seed_demo_data.py
 ```
 
-### Option B: Local Standalone Development
-1. **Initialize Backend**:
-   ```bash
-   python3 -m pip install -r requirements.txt
-   python3 scripts/seed_demo_data.py
-   uvicorn backend.app.main:app --port 8000 --reload
-   ```
-
-2. **Initialize Frontend**:
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+To stop containers:
+```bash
+make docker-down
+```
 
 ---
 
